@@ -1,6 +1,6 @@
 # Welcome to my [Astro](https://astro.build) built Website
 
-[Quetin's Website](https://quentingray.me)
+[Quentin's Website](https://quentingray.me)
 
 ## My Website
 
