@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Building my first Astro Website'
 pubDate: 23-11-2022
 description: 'This is the first post of me making my new website.'
@@ -8,10 +9,6 @@ image:
     alt: 'The Astro logo with the word One.'
 tags: ["astro", "blog", "first", "website", "learning", "github"]
 ---
-# Building my first Astro Website
-
-Published on: 23-11-2022
-
 Welcome to my first _blog post_ on my first Astro built _website_, here I want to share my learning experience.
 
 ## What I've accomplished
