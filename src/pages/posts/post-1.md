@@ -7,7 +7,7 @@ author: 'Quentin Gray'
 image:
     url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg'
     alt: 'The Astro logo with the word One.'
-tags: ["astro", "blog", "first", "website", "learning", "github"]
+tags: ["astro", "success", "community", "blogging"]
 ---
 Welcome to my first _blog post_ on my first Astro built _website_, here I want to share my learning experience.
 
