@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Tools";
+---
+<BaseLayout>
+    <div class="wrapper">
+        <h1>URL Shortener</h1>
+            <form id="form">
+                <input id="link" type="text" placeholder="Enter your link">
+                <input type="submit" value="shorten it!">
+            </form>
+        <ul id="parent" class="shortLinks">
+        </ul>
+    </div>
+</BaseLayout>
