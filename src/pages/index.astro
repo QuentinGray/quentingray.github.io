@@ -1,9 +1,11 @@
 ---
+import Tardis from "../components/Tardis.jsx";
+import Hello from "../components/Hello.jsx";
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Quentin's Website";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<h2>AWS re/Start Student</h2>
-	<Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+	<Hello client:only="react" />
+	<Tardis client:only="react" />
 </BaseLayout>
