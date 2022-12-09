@@ -1,4 +1,5 @@
 ---
+import MyList from "../components/MyList.jsx";
 import Tardis from "../components/Tardis.jsx";
 import Hello from "../components/Hello.jsx";
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -8,4 +9,5 @@ const pageTitle = "Quentin's Website";
 	<h2>AWS re/Start Student</h2>
 	<Hello client:only="react" />
 	<Tardis client:only="react" />
+	<MyList name="Quentin's" color="red"><b>Blah</b></MyList>
 </BaseLayout>
