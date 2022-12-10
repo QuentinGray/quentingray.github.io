@@ -1,4 +1,6 @@
 ---
+import Pokemon from "../components/Pokemon.jsx";
+import PostList from "../components/PostList.jsx";
 import MyList from "../components/MyList.jsx";
 import Tardis from "../components/Tardis.jsx";
 import Hello from "../components/Hello.jsx";
@@ -9,5 +11,7 @@ const pageTitle = "Quentin's Website";
 	<h2>AWS re/Start Student</h2>
 	<Hello client:only="react" />
 	<Tardis client:only="react" />
-	<MyList name="Quentin's" color="red"><b>Blah</b></MyList>
+	<MyList client:only="react" color="red"><b>Blah</b></MyList>
+	<PostList></PostList>
+	<Pokemon></Pokemon>
 </BaseLayout>
